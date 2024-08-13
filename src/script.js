@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function refreshWeather(response) {
   let temperatureElement = document.querySelector("#temperature");
   let temperature = response.data.temperature.current;
@@ -13,6 +14,8 @@ function searchCity(city) {
   searchCity(searchInput.value);
 }
 
+=======
+>>>>>>> parent of 29b126d (added some change in html and  in script.js added the search functionality using the API)
 function searchSubmit(event) {
   event.preventDefault();
   let searchInput = document.querySelector("#search-input");
